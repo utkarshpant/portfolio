@@ -13,7 +13,8 @@
 }
 
 .ProjectName a::after {
-    content: "";
+    content: " 🠖";
+    font-family: "Times New Roman";
 }
 
 .ProjectContainer {
