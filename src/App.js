@@ -13,6 +13,15 @@ function App() {
 				<Header />
 				<a id="about" ><About /></a>
 				<a id="work">
+				<Project project={{
+						year: "Nov 2020 - Present",
+						name: "Functional Analyst - BTG @ HDFC Bank",
+						link: "https://www.hdfcbank.com",
+						shortDesc: "I'm currently a part of the Third Party Products team, in the Business Technology Group at HDFC Bank.",
+						longDesc: "In my current role, I help implement new vendor-driven technology initiatives for the Bank, starting from requirements gathering, all the way to coordinating testing and deployment. Further, I also help support these applications in everyday functioning.",
+						tags: ['SQL', 'Oracle FlexCube', 'REST APIs'],
+						counter: "Work"
+					}} />
 					<Project project={{
 						year: 2021,
 						name: "The Telemetry Blog",
@@ -57,15 +66,6 @@ function App() {
 						longDesc: "Some of my articles have been featured in prominent publications like Analytics Vidhya. Being able to write with more control on the reading/writing experience was one of my motivations for the Telemetry Blog!",
 						tags: ['Software Development', 'C++', 'Web Development', 'Python'],
 						counter: "Previous Blog"
-					}} />
-					<Project project={{
-						year: "Nov 2020 - Present",
-						name: "Functional Analyst - BTG @ HDFC Bank",
-						link: "https://www.engineering.nmims.edu",
-						shortDesc: "I'm currently a part of the Third Party Products team, in the Business Technology Group at HDFC Bank.",
-						longDesc: "In my current role, I help implement new vendor-driven technology initiatives for the Bank, starting from requirements gathering, all the way to coordinating testing and deployment. Further, I also help support these applications in everyday functioning.",
-						tags: ['SQL', 'Oracle FlexCube', 'REST APIs'],
-						counter: "Work"
 					}} />
 					<Project project={{
 						year: "2016 - 2020",
