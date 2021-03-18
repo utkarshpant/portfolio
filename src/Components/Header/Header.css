@@ -15,8 +15,13 @@
     justify-content: flex-end;
     align-items: center;
     font-size: 16pt;
-    background: #002A3B;
+    background: #002A3B80;
     border-bottom: 1px dashed skyblue;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
 }
 
 .HeaderItem {

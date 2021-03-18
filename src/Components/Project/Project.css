@@ -1,5 +1,9 @@
 .ProjectContainer {
-    padding: 5px;
+    /* padding: 5px 0px; */
+}
+
+.TopRow {
+    padding: 5px 10px;
 }
 
 .ProjectName a {
@@ -13,7 +17,7 @@
 }
 
 .ProjectName a::after {
-    content: " 🠖";
+    content: " \1F812";
     font-family: "Times New Roman";
 }
 

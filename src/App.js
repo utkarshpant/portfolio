@@ -7,13 +7,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
+	document.title = 'Utkarsh Pant';
 	return (
+
 		<div className="App">
 			<FadeIn>
 				<Header />
 				<a id="about" ><About /></a>
 				<a id="work">
-				<Project project={{
+					<Project project={{
 						year: "Nov 2020 - Present",
 						name: "Functional Analyst - BTG @ HDFC Bank",
 						link: "https://www.hdfcbank.com",
