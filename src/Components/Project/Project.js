@@ -4,23 +4,26 @@ import './Project.css';
 
 const Project = (props) => {
     const project = props.project;
-    const dict = { 0: '-reverse', 1: '' };
-    let orderSelect = Math.floor(Math.random() * Math.floor(2));
     const [moreInfoDrawerOpen, setMoreInfoDrawerOpen] = useState(false);
 
     return (
         <Container fluid className="ProjectContainer">
             <Row className="TopRow">
-                <Col lg={6} md={12} className="CounterPanel">
+                {/* <Col lg={6} md={12} className="CounterPanel">
                     <span className="Counter">{props.project.counter}</span>
-                </Col>
-                <Col lg={6} md={12} className="ContentPanel">
-                    <div className="ProjectYear">
-                        <span>{props.project.year}</span>
-                    </div>
-                    <div className="ProjectName">
-                        <a href={props.project.link} target="_blank">{props.project.name}</a>
-                    </div>
+                </Col> */}
+                <Col className="ContentPanel">
+                    <Row className="YearAndName">
+                        <div className="ProjectYear">
+                            <span>{props.project.year}</span>
+                        </div>
+                        <div className="ProjectName">
+                            <span>{props.project.name}</span>
+                        </div>
+                    </Row>
+                    <Row>
+                        <a href={props.project.link} target="_blank" className="ProjectLink">PROJECT LINK</a>
+                    </Row>
                     <div className="ProjectDescription">
                         <span>{props.project.shortDesc}</span>
                     </div>
@@ -30,7 +33,7 @@ const Project = (props) => {
                             onClick={() => {
                                 setMoreInfoDrawerOpen(!moreInfoDrawerOpen)
                             }}
-                        >MORE ABOUT THIS 🠒
+                        >MORE ABOUT THIS
                         </button>
                     </div>
                 </Col>

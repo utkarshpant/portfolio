@@ -16,11 +16,6 @@
     text-decoration: none;
 }
 
-.ProjectName a::after {
-    content: " \1F812";
-    font-family: "Times New Roman";
-}
-
 .ProjectContainer {
     background: #002A3B;
     max-height: 300vh;
@@ -55,7 +50,7 @@
     /* height: 80vh; */
     max-height: 100vh;
     max-width: 100vw;
-    background: #ffEAD2;
+    background: #ffffff;
     color: #002A3B;
     display: flex;
     flex-direction: column;
@@ -70,6 +65,7 @@
 
 .TopRow {
     max-width: 100vw;
+    padding: 5vh;
 }
 
 .BottomRow {
@@ -80,24 +76,37 @@
 }
 
 .ProjectYear {
-    font-size: 16pt;
+    font-size: 22pt;
+    font-weight: bold;
+    color: sandybrown;
 }
 
 .ProjectName {
-    letter-spacing: -0.250rem;
-    font-size: 36pt;
+    letter-spacing: -0.125rem;
+    font-size: 24pt;
     font-weight: bold;
     color: #002A3B;
 }
 
+.YearAndName {
+    align-items: baseline;
+}
+
 .ProjectLink {
-    font-weight: 400;
-    font-size: 12pt;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 2vh 5vw 2vh 3vh;
+    color: #ff6161;
+}
+
+.ProjectLink:hover {
+    color: #ff6161;
+    text-decoration: none;
 }
 
 .ProjectDescription {
     padding: 2.5vh;
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .ProjectDetails {
@@ -111,32 +120,26 @@
 
 .ProjectDetailsButton {
     outline: none;
-    background: #ffffff50;
+    color: #002a3b;
+    background: #ffffff;
     border-radius: 5px;
     font-weight: bold;
     outline: none !important;
     border: none;
     padding: 5px;
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: bold;
     margin: 2.5vh 0vh;
 }
 
+
+
 .BottomRowProjectDetailsHeader {
-    font-size: 12pt;
+    font-size: 14pt;
     color: skyblue;
-    font-weight: bold;
 }
 
 .BottomRowProjectTagsHeader {
-    font-size: 12pt;
+    font-size: 14pt;
     color: skyblue;
-    font-weight: bold;
-}
-
-.Tag {
-    margin: 2.5vh 1vh 2.5vh 2.5vh;
-    background: #ffffff30;
-    padding: 1vh;
-    border-radius: 5px;
 }

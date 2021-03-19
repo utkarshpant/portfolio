@@ -5,6 +5,7 @@ import Project from './Components/Project/Project';
 import FadeIn from 'react-fade-in';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Work from './Components/Work/Work';
 
 function App() {
 	document.title = 'Utkarsh Pant';
@@ -15,15 +16,38 @@ function App() {
 				<Header />
 				<a id="about" ><About /></a>
 				<a id="work">
-					<Project project={{
-						year: "Nov 2020 - Present",
-						name: "Functional Analyst - BTG @ HDFC Bank",
-						link: "https://www.hdfcbank.com",
-						shortDesc: "I'm currently a part of the Third Party Products team, in the Business Technology Group at HDFC Bank.",
-						longDesc: "In my current role, I help implement new vendor-driven technology initiatives for the Bank, starting from requirements gathering, all the way to coordinating testing and deployment. Further, I also help support these applications in everyday functioning.",
+					
+					<h1 className="SectionHeader" id="workEx">
+						Work Experience &amp; Education
+					</h1>
+					
+					<Work role={{
+						designation: "Functional Analyst - BTG",
+						duration: "Nov 2020 - Present",
+						organisation: "HDFC Bank",
+						description: "In my current role, I help implement new vendor-driven technology initiatives for the Bank, starting from requirements gathering, all the way to coordinating testing and deployment. Further, I also help support these applications in everyday functioning.",
 						tags: ['SQL', 'Oracle FlexCube', 'REST APIs'],
-						counter: "Work"
+						link: {
+							target: "https://www.hdfcbank.com",
+							text: "www.hdfcbank.com"
+						}
 					}} />
+					<Work role={{
+						designation: "Student (B.Tech. CE)",
+						duration: "2016 - 2020",
+						organisation: "NMIMS Mumbai",
+						link: {
+							target: "https://www.engineering.nmims.edu",
+							text: 'www.engineering.nmims.edu'
+						},
+						description: "During my college career I worked on a variety of projects across domains including healthcare, data analysis, web development and native application development.",
+						tags: ['Data Structures', 'Algorithms', 'Computer Networks', 'Soft Computing', 'Human Computer Interface', 'Research Methodology'],
+					}} />
+					
+					<h1 className="SectionHeader" id="projects">
+						Projects
+					</h1>
+					
 					<Project project={{
 						year: 2021,
 						name: "The Telemetry Blog",
@@ -68,15 +92,6 @@ function App() {
 						longDesc: "Some of my articles have been featured in prominent publications like Analytics Vidhya. Being able to write with more control on the reading/writing experience was one of my motivations for the Telemetry Blog!",
 						tags: ['Software Development', 'C++', 'Web Development', 'Python'],
 						counter: "Previous Blog"
-					}} />
-					<Project project={{
-						year: "2016 - 2020",
-						name: "B.Tech Computer Engineering @ NMIMS Mumbai",
-						link: "https://www.telemetryblog.in",
-						shortDesc: "Graduated in June 2020.",
-						longDesc: "During my college career I worked on a variety of projects across domains including healthcare, data analysis, web development and native application development.",
-						tags: ['Data Structures', 'Algorithms', 'Computer Networks', 'Soft Computing', 'Human Computer Interface', 'Research Methodology'],
-						counter: "Education"
 					}} />
 				</a>
 			</FadeIn>

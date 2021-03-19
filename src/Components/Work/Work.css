@@ -1,0 +1,93 @@
+.WorkContainer {
+    max-height: 120vh;
+    color: #ffffff;
+}
+
+.WorkPaddingWrapper {
+    padding: 3vh;
+    border-bottom: 1px dashed skyblue;
+}
+
+.WorkHeader {
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.DetailsRow1 {
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.WorkRole {
+    font-size: 18pt;
+    letter-spacing: -0.075rem;
+    font-weight: bold;
+}
+
+.separator {
+    padding: 1vh;
+    font-size: 18pt;
+}
+
+.WorkOrg {
+    font-size: 18pt;
+    letter-spacing: -0.075rem;
+}
+
+.DetailsRow2 {
+    padding: 1vh;
+}
+
+.WorkDate {
+    padding: 1vh;
+    font-size: 16pt;
+}
+
+.WorkLink {
+    color: skyblue;
+    transition: 80ms ease-in color;
+    font-size: 16pt;
+}
+
+.WorkLink:hover, .WorkLink:active, .WorkLink:visited {
+    color: #ff6161;
+    text-decoration: none;
+}
+
+
+
+.AboutHeader {
+    margin: 0px -15px;
+    padding: 2vh;
+    display: block;
+    color: skyblue;
+    font-size: 14pt;
+}
+
+.WorkDescription {
+    padding: 2vh 5vh 2vh 2vh;
+}
+
+.WorkDescriptionText {
+    font-family: 'Crimson Text';
+    font-size: 18pt;
+}
+
+.ExposureHeader {
+    margin: 0px -15px;
+    padding: 2vh;
+    display: block;
+    color: skyblue;
+    font-size: 14pt;
+}
+
+.Tag {
+    margin: 2.5vh 1vh 2.5vh 2.5vh;
+    background: #ffffff30;
+    padding: 1vh;
+    border-radius: 5px;
+}

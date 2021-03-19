@@ -6,3 +6,18 @@
 	font-family: "Karla";
 	background: #002A3B;
 }
+
+.SectionHeader {
+	padding: 5vh;
+	color: sandybrown;
+	letter-spacing: -0.20rem;
+	font-size: 36pt;
+}
+
+#workEx {
+	text-align: left;
+}
+
+#projects {
+	text-align: right;
+}

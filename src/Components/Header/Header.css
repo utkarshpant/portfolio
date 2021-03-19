@@ -9,26 +9,26 @@
 }
 
 .Header {
-    padding: 5vh 5vh 5vh 3vh;
+    padding: 2vh 5vh 2vh 3vh;
     max-width: 100vw;
-    /* max-height: 20vh;     */
+    height: 15vh;    
     justify-content: flex-end;
     align-items: center;
     font-size: 16pt;
-    background: #002A3B80;
-    border-bottom: 1px dashed skyblue;
+    background: #002a3bee;
     position: fixed;
     width: 100vw;
-    top: 0px;
-    z-index: 999;
+    top: 0;
+    border-bottom: 1px dashed skyblue;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    z-index: 999;
 }
 
 .HeaderItem {
     text-decoration: none;
     color: #ffffff; 
     font-weight: 400;
-    padding: 0vh 10vh 0vh 5vh;
+    padding: 0vh 5vh 0vh 5vh;
     /* background: coral; */
 }
