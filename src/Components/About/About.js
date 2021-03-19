@@ -28,6 +28,9 @@ const About = (props) => {
                         <span>
                             <a href="https://www.github.com/utkarshpant" target="blank"><i class="fab fa-github"></i></a>
                         </span>
+                        <span>
+                            <a href="mailto:utkarsh.pant@outlook.com" target="blank"><i class="fas fa-envelope"></i></a>
+                        </span>
                     </Row>
                 </Col>
             </Row>
