@@ -10,7 +10,7 @@ const About = (props) => {
                     <img src="Saly-1.png" className="Avatar" />
                 </Col>
                 <Col className="HeaderText">
-                    <Row className="Greeting">
+                    <Row className="Greeting text-left">
                         <span>Utkarsh Pant</span>
                     </Row>
                     <Row className="Intro">

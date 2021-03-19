@@ -1,6 +1,7 @@
 .WorkContainer {
-    max-height: 120vh;
+    max-height: 140vh;
     color: #ffffff;
+    background: #002a3b;
 }
 
 .WorkPaddingWrapper {

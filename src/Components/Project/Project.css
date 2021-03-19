@@ -120,7 +120,7 @@
 
 .ProjectDetailsButton {
     outline: none;
-    color: #002a3b;
+    color: sandybrown;
     background: #ffffff;
     border-radius: 5px;
     font-weight: bold;
@@ -131,7 +131,6 @@
     font-weight: bold;
     margin: 2.5vh 0vh;
 }
-
 
 
 .BottomRowProjectDetailsHeader {
