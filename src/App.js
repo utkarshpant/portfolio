@@ -3,9 +3,10 @@ import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import Project from './Components/Project/Project';
 import FadeIn from 'react-fade-in';
+import Work from './Components/Work/Work';
+import Profile from './profile.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Work from './Components/Work/Work';
 
 function App() {
 	document.title = 'Utkarsh Pant';
@@ -20,8 +21,14 @@ function App() {
 					<h1 className="SectionHeader" id="workEx">
 						Work Experience &amp; Education
 					</h1>
+
+					{
+						Profile.work.map(role => (
+							<Work role={role} />
+						))
+					}
 					
-					<Work role={{
+					{/* <Work role={{
 						designation: "Functional Analyst - BTG",
 						duration: "Nov 2020 - Present",
 						organisation: "HDFC Bank",
@@ -42,13 +49,19 @@ function App() {
 						},
 						description: "During my college career I worked on a variety of projects across domains including healthcare, data analysis, web development and native application development.",
 						tags: ['Data Structures', 'Algorithms', 'Computer Networks', 'Soft Computing', 'Human Computer Interface', 'Research Methodology'],
-					}} />
+					}} /> */}
 					
 					<h1 className="SectionHeader" id="projects">
 						Projects
 					</h1>
+
+					{
+						Profile.projects.map(project => (
+							<Project project={project} />
+						))
+					}
 					
-					<Project project={{
+					{/* <Project project={{
 						year: 2021,
 						name: "The Telemetry Blog",
 						link: "https://www.telemetryblog.in",
@@ -92,7 +105,7 @@ function App() {
 						longDesc: "Some of my articles have been featured in prominent publications like Analytics Vidhya. Being able to write with more control on the reading/writing experience was one of my motivations for the Telemetry Blog!",
 						tags: ['Software Development', 'C++', 'Web Development', 'Python'],
 						counter: "Previous Blog"
-					}} />
+					}} /> */}
 				</a>
 			</FadeIn>
 		</div>
