@@ -18,7 +18,7 @@
 
 .ProjectContainer {
     background: #002A3B;
-    max-height: 350vh;
+    max-height: 550vh;
     max-width: 100vw;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .BottomRow {
-    max-height: 100vh;
+    max-height: 200vh;
     max-width: 100vw;
     padding: 2.5vh;
     color: #ffffff;
@@ -112,7 +112,7 @@
 .ProjectDetails {
     font-size: 18pt;
     font-family: 'Crimson Text';
-    max-height: 80vh;
+    max-height: 200vh;
     padding: 2.5vh;
     margin-bottom: 2.5vh;
     text-align: left;

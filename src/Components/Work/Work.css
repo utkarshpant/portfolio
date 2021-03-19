@@ -1,5 +1,6 @@
 .WorkContainer {
     max-height: 140vh;
+    min-width: 100vw;
     color: #ffffff;
     background: #002a3b;
 }
