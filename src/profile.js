@@ -37,7 +37,7 @@ const Profile = {
             name: "The Telemetry Blog",
             link: "https://www.telemetryblog.in",
             shortDesc: "A minimalist blog made to focus on a distraction-free reading and writing experience.",
-            longDesc: "I have been a long-time user of Medium as both a writer and a reader. However, of late, I wasn't enjoying the experience very much and decided to try building my own platform, keeping everything I loved about Medium, while changing whatever I didn't. The result - the Telemetry Blog is a full-stack project, where I built the back-end and front-end for a blog using Node.js and React.js respectively. The project is deployed on Heroku and Netlify, and is continually updated as I better my skills. It is also where I actively write now!",
+            longDesc: "After many years of on-and-off writing on Medium, I wanted to try my hand at building my own blog. This would also be a fantastic way to learn new skills across the stack! The result - the Telemetry Blog is a full-stack project, where I built the back-end and front-end for a blog using Node.js and React.js respectively. Some features that I am proud of are the search, the passwordless sign-in, and story autosaving. The back-end and front-end are deployed on Heroku and Netlify respectively!",
             tags: ['Node.js', 'Express', 'MongoDB', 'React', 'Redis', 'Heroku'],
         },
         {

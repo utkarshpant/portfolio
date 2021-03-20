@@ -120,8 +120,29 @@
 
 .ProjectDetailsButton {
     outline: none;
-    color: sandybrown;
-    background: #ffffff;
+    background-clip: text;
+    background: -webkit-linear-gradient(to right, #fc5c7d, #6a82fb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc5c7d, #6a82fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    outline: none !important;
+    border: none;
+    padding: 5px;
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 2.5vh 0vh;
+    transition: 3s ease-in all;
+}
+
+.ProjectDetailsButton:hover {
+    outline: none;
+    background-clip: text;
+    background: -webkit-linear-gradient(to right, #108dc7, #ef8e38); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #108dc7, #ef8e38); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     border-radius: 5px;
     font-weight: bold;
     outline: none !important;
@@ -135,6 +156,7 @@
 
 .BottomRowProjectDetailsHeader {
     font-size: 14pt;
+    background-clip: text;
     color: skyblue;
 }
 
