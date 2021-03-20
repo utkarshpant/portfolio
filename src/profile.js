@@ -69,7 +69,7 @@ const Profile = {
             name: "Blocks",
             link: "https://github.com/utkarshpant/blocks",
             shortDesc: "A C++ library for data structures and algorithms.",
-            longDesc: "With this ongoing project, I am trying to implement all the data structures and algorithms taught in university courses, while trying to mimic the Standard Library as closely as possible. At the same time, I am trying to document the process and answer all the questions I had when I was learning this in college.",
+            longDesc: "With this ongoing project, I am trying to implement all the data structures and algorithms taught in university courses, while trying to mimic the Standard Library as closely as possible. At the same time, I am trying to document the process and answer all the questions I had when I was learning this in college. Think Data Structures for Dummies, by a Dummy.",
             tags: ['C++', 'Templates', 'STL'],
         },
         {
