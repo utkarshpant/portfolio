@@ -35,7 +35,7 @@ const Profile = {
         {
             year: 2021,
             name: "The Telemetry Blog",
-            link: "https://www.telemetryblog.in",
+            link: "https://www.telemetryblog.in/utkarsh",
             shortDesc: "A minimalist blog made to focus on a distraction-free reading and writing experience.",
             longDesc: "After many years of on-and-off writing on Medium, I wanted to try my hand at building my own blog. This would also be a fantastic way to learn new skills across the stack! The result - the Telemetry Blog is a full-stack project, where I built the back-end and front-end for a blog using Node.js and React.js respectively. Some features that I am proud of are the search, the passwordless sign-in, and story autosaving. The back-end and front-end are deployed on Heroku and Netlify respectively!",
             tags: ['Node.js', 'Express', 'MongoDB', 'React', 'Redis', 'Heroku'],
